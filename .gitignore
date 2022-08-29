@@ -127,8 +127,3 @@ INFO
 # Pytorch
 *.pth
 
-
-# readthedocs
-docs/zh_cn/_build
-src/
-docs/en/_build
