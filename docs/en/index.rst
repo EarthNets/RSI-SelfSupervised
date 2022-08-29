@@ -13,19 +13,21 @@ Welcome to RSI-SelfSupervised's documentation!
    install.md
    prepare_data.md
    get_started.md
-   model_zoo.md
+
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tutorials
+   :caption: Dataset Preparation
 
-   tutorials/0_config.md
-   tutorials/1_new_dataset.md
-   tutorials/2_data_pipeline.md
-   tutorials/3_new_module.md
-   tutorials/4_schedule.md
-   tutorials/5_runtime.md
-   tutorials/6_benchmarks.md
+   dataset_prepare.md
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Model Zoo
+
+   model_zoo.md
+
 
 .. toctree::
    :maxdepth: 1
@@ -51,10 +53,29 @@ Welcome to RSI-SelfSupervised's documentation!
 
 .. toctree::
    :maxdepth: 1
+   :caption: Tutorials
+
+   tutorials/0_config.md
+   tutorials/1_new_dataset.md
+   tutorials/2_data_pipeline.md
+   tutorials/3_new_module.md
+   tutorials/4_schedule.md
+   tutorials/5_runtime.md
+   tutorials/6_benchmarks.md
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Useful Tools and Scripts
+
+   useful_tools.md
+
+.. toctree::
+   :maxdepth: 1
    :caption: Notes
 
    changelog.md
-   compatibility.md
+   faq.md
 
 
 Indices and tables
