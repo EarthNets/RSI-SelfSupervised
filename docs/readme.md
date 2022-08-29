@@ -3,7 +3,7 @@ Notes about editing the docs.
 ### Header Logo
 
 We suggest putting all the html resources to `docs/_static`. First put the logo
-to `docs/_static/images/logo.png`, then write the following snippet to 
+to `docs/_static/images/logo.png`, then write the following snippet to
 `docs/_static/css/readthedocs.css`:
 ```css
 .header-logo {
@@ -28,7 +28,7 @@ Here is an example config covering all available options:
 html_theme_options = {
     # The target url that the logo directs to. Unset to do nothing
     'logo_url': 'https://mmocr.readthedocs.io/en/latest/',
-    # "menu" is a list of dictionaries where you can specify the content and the 
+    # "menu" is a list of dictionaries where you can specify the content and the
     # behavior of each item in the menu. Each item can either be a link or a
     # dropdown menu containing a list of links.
     'menu': [
@@ -36,7 +36,7 @@ html_theme_options = {
         {
             'name': 'GitHub',
             'url': 'https://github.com/open-mmlab/'
-        }, 
+        },
         # A dropdown menu
         {
             'name': 'Projects',
@@ -52,13 +52,13 @@ html_theme_options = {
                     'url': 'https://github.com/open-mmlab/mmdetection',
                     'description': 'Object detection toolbox and benchmark'
                 },
-            ], 
+            ],
             # Optional, determining whether this dropdown menu will always be
-            # highlighted. 
+            # highlighted.
             'active': True,
         },
     ],
-    # For shared menu: If your project is a part of OpenMMLab's project and 
+    # For shared menu: If your project is a part of OpenMMLab's project and
     # you would like to append Docs and OpenMMLab section to the right
     # of the menu, you can specify menu_lang to choose the language of
     # shared contents. Available options are 'en' and 'cn'. Any other
