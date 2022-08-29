@@ -1,8 +1,4 @@
-exclude: >
-  (?x)^(
-      tests/data/|
-      docs/en/_build
-  )$
+exclude: ^(tests/data/|docs/en/_build)
 repos:
   - repo: https://github.com/PyCQA/flake8
     rev: 4.0.1
