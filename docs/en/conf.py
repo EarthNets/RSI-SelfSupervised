@@ -71,7 +71,7 @@ source_suffix = {
 #
 html_theme = 'pytorch_sphinx_theme'
 html_theme_path = [pytorch_sphinx_theme.get_html_theme_path()]
-html_logo= 'https://rsi-selfsupervised.readthedocs.io/en/latest/'
+html_logo = 'https://rsi-selfsupervised.readthedocs.io/en/latest/'
 html_theme_options = {
     'logo_url':
     'https://rsi-selfsupervised.readthedocs.io/en/latest/',
